@@ -245,6 +245,6 @@ class JWT
      */
     public static function urlsafeB64Encode($input)
     {
-        return \str_replace('=', '', \strtr(\base64_encode($input), '+/', '-_'));        
+        return \str_replace('=', '', \strtr(\base64_encode($input), '+/', '-_'));
     }
 }
